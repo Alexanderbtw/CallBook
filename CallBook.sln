@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallBook.API", "CallBook.API\CallBook.API.csproj", "{52ED2B7B-A10B-41C8-9192-97839C27BDF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallBook.Application", "CallBook.Application\CallBook.Application.csproj", "{646406D2-7CFA-4103-BDFA-1821048EBDF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallBook.DAL", "CallBook.DAL\CallBook.DAL.csproj", "{F6CA1F3F-6E54-44D6-8BC5-9F0E3B048241}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52ED2B7B-A10B-41C8-9192-97839C27BDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ED2B7B-A10B-41C8-9192-97839C27BDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ED2B7B-A10B-41C8-9192-97839C27BDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ED2B7B-A10B-41C8-9192-97839C27BDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646406D2-7CFA-4103-BDFA-1821048EBDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646406D2-7CFA-4103-BDFA-1821048EBDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646406D2-7CFA-4103-BDFA-1821048EBDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646406D2-7CFA-4103-BDFA-1821048EBDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6CA1F3F-6E54-44D6-8BC5-9F0E3B048241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6CA1F3F-6E54-44D6-8BC5-9F0E3B048241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6CA1F3F-6E54-44D6-8BC5-9F0E3B048241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6CA1F3F-6E54-44D6-8BC5-9F0E3B048241}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
