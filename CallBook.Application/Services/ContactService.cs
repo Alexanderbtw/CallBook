@@ -1,15 +1,26 @@
-using CallBook.Application.Entity;
+using CallBook.Application.Data;
+using CallBook.Application.Entities;
 using CallBook.Application.Services.Interfaces;
 
 namespace CallBook.Application.Services;
 
-public class ContactService {
+public class ContactService : IContactService {
+    private readonly IRepository _repository;
+    public ContactService(IRepository repository) {
+        _repository = repository;
+    }
+    
     public IEnumerable<Contact> ReadAll() {
-        throw new NotImplementedException();
+        return _repository.ReadAll();
     }
 
-    public Contact? FindByFirstName(string firstName) {
-        throw new NotImplementedException();
+    public void Create(Contact contact) {
+        _repository.Create(contact);
+    }
+
+    public IEnumerable<Contact> FindByFirstName(string firstName) {
+        return _repository.FilterContacts(contact => 
+            string.Equals(contact.FirstName, firstName, StringComparison.CurrentCultureIgnoreCase));
     }
 
     public Contact? FindByLastName(string lastName) {

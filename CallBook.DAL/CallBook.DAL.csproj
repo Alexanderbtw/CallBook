@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CallBook.Application\CallBook.Application.csproj" />
+    </ItemGroup>
+
 </Project>

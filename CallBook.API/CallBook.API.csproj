@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CallBook.Application\CallBook.Application.csproj" />
+      <ProjectReference Include="..\CallBook.DAL\CallBook.DAL.csproj" />
+    </ItemGroup>
+
 </Project>
